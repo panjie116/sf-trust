@@ -8,6 +8,30 @@
   <title>Savannah Trust</title>
   <link rel="icon" href="favicon.ico">
   <link href="style.css" rel="stylesheet">
+
+
+  <style>
+/* Nav bar background */
+nav {
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 6px; /* optional, for rounded edges */
+}
+
+/* Navigation link color */
+nav a.xl {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px; /* spacing between links */
+  transition: color 0.3s;
+}
+
+/* Link hover effect */
+nav a.xl:hover {
+  color: #cce6cc; /* lighter green on hover */
+}
+</style>
+
 </head>
 
 <body x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
@@ -46,7 +70,9 @@
         <nav>
           <ul class="tc _o sf yo cg ep">
             <li><a href="index.html" class="xl" :class="{ 'mk': page === 'home' }">Home</a></li>
-            <li><a href="index.html#support" class="xl">Support</a></li>
+            <li><a href="index.html#support" class="xl">About Us</a></li>
+            <li><a href="index.html#support" class="xl">Core Values</a></li>
+            <li><a href="index.html#support" class="xl">Contact Us</a></li>
           </ul>
         </nav>
 
@@ -77,29 +103,29 @@
   <main>
     <!-- ===== Hero Start ===== -->
     <section class="gj do ir hj sp jr i pg">
-      <!-- Hero Images -->
-      <div class="xc fn zd/2 2xl:ud-w-187.5 bd 2xl:ud-h-171.5 h q r">
-        <img src="images/shape-01.svg" alt="shape" class="xc 2xl:ud-block h t -ud-left-[10%] ua" />
-        <img src="images/shape-02.svg" alt="shape" class="xc 2xl:ud-block h u p va" />
-        <img src="images/shape-03.svg" alt="shape" class="xc 2xl:ud-block h v w va" />
-        <img src="images/shape-04.svg" alt="shape" class="h q r" />
-        <img src="images/hero.png" alt="Woman" class="h q r ua" />
-      </div>
+     
 
       <!-- Hero Content -->
       <div class="bb ze ki xn 2xl:ud-px-0">
         <div class="tc _o">
+          <img src="images/shape-06.svg" alt="Shape" class="h j k">
+          <img src="images/shape-03.svg" alt="Shape" class="h l m">
+          <img src="images/shape-17.svg" alt="Shape" class="h n o">
+          <img src="images/shape-18.svg" alt="Shape" class="h p q">
           <div class="animate_left jn/2">
             <h1 class="fk vj zp or kk wm wb">Savannah Foundation Trust</h1>
+            
             <p class="fq">
               We conserve the most at-risk ecosystems through community-led governance.
             </p>
+           
 
             <div class="tc tf yo zf mb">
               <a href="#!" class="ek jk lk gh gi hi rg ml il vc _d _l">Join Us!</a>
 
               
             </div>
+            
           </div>
         </div>
       </div>
@@ -333,13 +359,18 @@
 <section class="lj tp kr">
   <!-- Section Title Start -->
   <div
-    x-data="{ sectionTitle: `CORE VALUES`, sectionTitleText: `Our Core Values.`}">
+    x-data="{ sectionTitle: `Core Values`, sectionTitleText: `Our Core Values.`}">
     <div class="animate_top bb ze rj ki xn vq">
       <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b"></h2>
       <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
     </div>
   </div>
   <!-- Section Title End -->
+
+          <img src="images/shape-06.svg" alt="Shape" class="h j k">
+          <img src="images/shape-03.svg" alt="Shape" class="h l m">
+          <img src="images/shape-17.svg" alt="Shape" class="h n o">
+          <img src="images/shape-18.svg" alt="Shape" class="h p q">
 
   <div class="bb ze ki xn yq mb en">
     <div class="wc qf pn xo ng">
@@ -412,7 +443,7 @@
           <!-- Blog Item -->
           <div class="animate_top sg vk rm xm">
             <div class="c rc i z-1 pg">
-              <img class="w-full" src="images/blog-01.png" alt="Blog" />
+              <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=400&h=200&fit=crop" alt="Blog">
 
               <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
                 <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
@@ -439,7 +470,7 @@
           <!-- Blog Item -->
           <div class="animate_top sg vk rm xm">
             <div class="c rc i z-1 pg">
-              <img class="w-full" src="images/blog-02.png" alt="Blog" />
+               <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=200&fit=crop" alt="Blog">
 
               <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
                 <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
@@ -466,7 +497,8 @@
           <!-- Blog Item -->
           <div class="animate_top sg vk rm xm">
             <div class="c rc i z-1 pg">
-              <img class="w-full" src="images/blog-01.png" alt="Blog" />
+             <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=200&fit=crop" alt="Blog">
+      
 
               <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
                 <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
