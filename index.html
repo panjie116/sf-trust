@@ -21,8 +21,8 @@
     <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
       <div class="vd to/4 tc wf yf">
         <a href="index.html">
-          <img class="om" src="images/logo.pn" alt="Logo Light" />
-          <img class="xc nm" src="images/logo.pn" alt="Logo Dark" />
+          <img class="om" src="images/logo.png" alt="Logo Light" />
+          <img class="xc nm" src="images/logo.png" alt="Logo Dark" />
         </a>
 
         <!-- Hamburger Toggle BTN -->
@@ -128,7 +128,16 @@
 
           <!-- About Content -->
         <div class="animate_right jn/2">
-          <h1 class="ek yj mk gb" style="font-size: 2.5rem;">About Us</h1>
+        <div
+        x-data="{ sectionTitle: `About Us`, sectionTitleText: ``}">
+        <div class="animate_top bb ze rj ki xn vq">
+          <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
+          </h2>
+          <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+        </div>
+
+
+      </div>
           <br>
           <p class="uo" style="text-align: justify;">
             Savannah Foundation Trust [SFT] is a Malawian environmental non-governmental organization which was conceived in 2019
@@ -406,7 +415,7 @@
               <img class="w-full" src="images/blog-01.png" alt="Blog" />
 
               <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                <a href="./blog-single.html" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
+                <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
               </div>
             </div>
 
@@ -422,7 +431,7 @@
                 </div>
               </div>
               <h4 class="ek tj ml il kk wm xl eq lb">
-                <a href="blog-single.html">Free advertising for your online business</a>
+                <a href="#">10 Ways to Restore Local Ecosystems Effectively</a>
               </h4>
             </div>
           </div>
@@ -433,7 +442,7 @@
               <img class="w-full" src="images/blog-02.png" alt="Blog" />
 
               <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                <a href="./blog-single.html" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
+                <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
               </div>
             </div>
 
@@ -449,7 +458,7 @@
                 </div>
               </div>
               <h4 class="ek tj ml il kk wm xl eq lb">
-                <a href="blog-single.html">9 simple ways to improve your design skills</a>
+                <a href="#">How Community Actions Can Protect Forests</a>
               </h4>
             </div>
           </div>
@@ -457,10 +466,10 @@
           <!-- Blog Item -->
           <div class="animate_top sg vk rm xm">
             <div class="c rc i z-1 pg">
-              <img class="w-full" src="images/blog-03.png" alt="Blog" />
+              <img class="w-full" src="images/blog-01.png" alt="Blog" />
 
               <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                <a href="./blog-single.html" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
+                <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
               </div>
             </div>
 
@@ -476,7 +485,7 @@
                 </div>
               </div>
               <h4 class="ek tj ml il kk wm xl eq lb">
-                <a href="blog-single.html">Tips to quickly improve your coding speed.</a>
+                <a href="#">Sustainable Water Management Tips for Communities.</a>
               </h4>
             </div>
           </div>
